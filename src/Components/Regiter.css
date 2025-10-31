@@ -1,0 +1,19 @@
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.slide-up {
+  opacity: 0;
+  transform: translateY(80px);
+}
+
+.slide-up.show {
+  animation: slideUp 0.8s ease-out forwards;
+}
