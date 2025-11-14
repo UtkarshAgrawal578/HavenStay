@@ -8,12 +8,18 @@ function Footer() {
     <div className="max-w-6xl mx-auto px-6 flex flex-col items-center text-center space-y-4">
       
       {/* Title */}
-      <h2 className="text-2xl sm:text-3xl font-extrabold mb-2 tracking-wide">
-        🏠 HavenStay
-      </h2>
+      <h2 className="text-2xl sm:text-3xl font-extrabold mb-2 tracking-wide flex items-center gap-2">
+  <img
+    src="/Hostel.png"
+    alt="Hostel Logo"
+    className="w-10 h-10 object-contain hover:scale-105 transition-transform duration-300"
+  />
+  HavenStay
+</h2>
+
 
       {/* Contact Info */}
-      <p className="text-sm sm:text-base">📧 hostelhelp@example.com</p>
+      <p className="text-sm sm:text-base">📧 utkarshzhcet123@gmail.com</p>
       <p className="text-sm sm:text-base">📞 +91 9027548463</p>
 
       {/* Social Links */}

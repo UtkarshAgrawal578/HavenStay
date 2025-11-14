@@ -11,7 +11,11 @@ export default function Navbar() {
         {/* Logo */}
    <div className="flex items-center gap-2 cursor-pointer transform transition-all duration-500 hover:scale-105 select-none">
       {/* Icon with new color */}
-      <Home className="w-8 h-8 text-yellow-300 drop-shadow-[0_2px_6px_rgba(255,255,255,0.3)] hover:text-red-400 transition-all duration-500" />
+      <img
+  src="/Hostel.png"
+  alt="Hostel Logo"
+  className="w-8 h-8 md:w-10 md:h-10 object-contain"
+/>
 
       {/* Logo Text */}
       <div
