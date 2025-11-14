@@ -328,7 +328,7 @@ const fetchNotices = async () => {
       <tbody>
         {complaints.map((c, i) => (
           <tr key={c._id} className="border-b">
-            <td className="p-3">#{i + 101}</td>
+            <td className="p-3">{i + 1}</td>
             <td className="p-3">{c.title}</td>
             <td className="p-3">{c.category}</td>
             <td className="p-3">{c.description}</td>
@@ -374,7 +374,7 @@ const fetchNotices = async () => {
         className="bg-gray-50 border rounded-lg p-4 shadow flex flex-col gap-2"
       >
         <div className="flex justify-between items-center">
-          <span className="font-bold text-indigo-600">#{i + 101}</span>
+          <span className="font-bold text-indigo-600">{i + 1}</span>
           {c.status === "Pending" && (
             <button
               onClick={() => deleteComplaint(c._id)}
